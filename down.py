@@ -1,4 +1,4 @@
-#Author : Xalbalador
+#Author : ZieL
 import random
 import socket
 import threading
